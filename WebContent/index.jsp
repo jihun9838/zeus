@@ -44,7 +44,7 @@
 
 <style>
 main {
-	padding-top: 2rem;
+	padding-top: 7rem;
 }
 /* .bd-placeholder-img { */
 /* 	font-size: 1.125rem; */
@@ -66,7 +66,7 @@ main {
 <body>
 
 
-	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
 		<a class="navbar-brand" href="index.jsp"> <img
 			src="img/zeus_logo_transparent.png" alt="logo" style="width: 3rem;">
 		</a>
@@ -80,7 +80,7 @@ main {
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
 			<ul class="navbar-nav mr-auto">
 				<li class="nav-item active"><a class="nav-link"
-					href="index.jsp">Homeeeee <span class="sr-only">(current)</span>
+					href="index.jsp">Home <span class="sr-only">(current)</span>
 				</a></li>
 				<li class="nav-item"><a class="nav-link" href="#">Link</a></li>
 				<li class="nav-item dropdown"><a
@@ -115,16 +115,130 @@ main {
 
 
 
+
+
+
 	<main role="main" class="container">
-		<div class="jumbotron">
-			<h1>Navbar example</h1>
-			<p class="lead">This example is a quick exercise to illustrate
-				how fixed to top navbar works. As you scroll, it will remain fixed
-				to the top of your browser’s viewport.</p>
+		<div class="jumbotron text-center">
+			<h1>에어팟 프로, 그것은 섹시하니까</h1>
+			<p class="lead">
+				온전히 빠져들게 하는 액티브 노이즈 캔슬링.<br> 주변의 소리를 들려주는 주변음 허용 모드. <br>
+			</p>
 			<a class="btn btn-lg btn-primary" href="../components/navbar/"
-				role="button">View navbar docs &raquo;</a>
+				role="button">지금 지훈이에게 후원하기 &raquo;</a>
 		</div>
 	</main>
+
+
+
+
+	<div class="container">
+		<div class="row text-center d-flex justify-content-between">
+
+
+			<div class="card m-3 " style="width: 18rem;">
+				<img class="card-img-top p-3" src="img/airpods_pro.jpg"
+					alt="Card image cap">
+				<div class="card-body">
+					<h3 class="card-title text-center">
+						<i>소리로 소음을<br> 압도하다.
+						</i>
+					</h3>
+					<p class="card-text">최소
+					<h4>24시간</h4>
+					배터리 선을 모르는 충전.<br> 지칠 줄 모르는 플레이.
+					</p>
+					<a href="#" class="btn btn-primary">지금 후원하기</a>
+				</div>
+			</div>
+
+			<div class="card m-3 " style="width: 18rem;">
+				<img class="card-img-top p-3" src="img/airpods_pro.jpg"
+					alt="Card image cap">
+				<div class="card-body">
+					<h3 class="card-title text-center">
+						<i>소리로 소음을<br> 압도하다.
+						</i>
+					</h3>
+					<p class="card-text">최소
+					<h4>24시간</h4>
+					배터리 선을 모르는 충전.<br> 지칠 줄 모르는 플레이.
+					</p>
+					<a href="#" class="btn btn-primary">지금 후원하기</a>
+				</div>
+			</div>
+
+			<div class="card m-3 " style="width: 18rem;">
+				<img class="card-img-top p-3" src="img/airpods_pro.jpg"
+					alt="Card image cap">
+				<div class="card-body">
+					<h3 class="card-title text-center">
+						<i>소리로 소음을<br> 압도하다.
+						</i>
+					</h3>
+					<p class="card-text">최소
+					<h4>24시간</h4>
+					배터리 선을 모르는 충전.<br> 지칠 줄 모르는 플레이.
+					</p>
+					<a href="#" class="btn btn-primary">지금 후원하기</a>
+				</div>
+			</div>
+
+
+			<div class="card m-3 " style="width: 18rem;">
+				<img class="card-img-top p-3" src="img/airpods_pro.jpg"
+					alt="Card image cap">
+				<div class="card-body">
+					<h3 class="card-title text-center">
+						<i>소리로 소음을<br> 압도하다.
+						</i>
+					</h3>
+					<p class="card-text">최소
+					<h4>24시간</h4>
+					배터리 선을 모르는 충전.<br> 지칠 줄 모르는 플레이.
+					</p>
+					<a href="#" class="btn btn-primary">지금 후원하기</a>
+				</div>
+			</div>
+
+			<div class="card m-3 " style="width: 18rem;">
+				<img class="card-img-top p-3" src="img/airpods_pro.jpg"
+					alt="Card image cap">
+				<div class="card-body">
+					<h3 class="card-title text-center">
+						<i>소리로 소음을<br> 압도하다.
+						</i>
+					</h3>
+					<p class="card-text">최소
+					<h4>24시간</h4>
+					배터리 선을 모르는 충전.<br> 지칠 줄 모르는 플레이.
+					</p>
+					<a href="#" class="btn btn-primary">지금 후원하기</a>
+				</div>
+			</div>
+
+			<div class="card m-3 " style="width: 18rem;">
+				<img class="card-img-top p-3" src="img/airpods_pro.jpg"
+					alt="Card image cap">
+				<div class="card-body">
+					<h3 class="card-title text-center">
+						<i>소리로 소음을<br> 압도하다.
+						</i>
+					</h3>
+					<p class="card-text">최소
+					<h4>24시간</h4>
+					배터리 선을 모르는 충전.<br> 지칠 줄 모르는 플레이.
+					</p>
+					<a href="#" class="btn btn-primary">지금 후원하기</a>
+				</div>
+			</div>
+
+
+
+		</div>
+	</div>
+
+
 
 	<!-- 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" -->
 	<!-- 		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" -->
@@ -135,10 +249,7 @@ main {
 	<!-- 	<script src="/dist/js/bootstrap.bundle.js"></script> -->
 
 
-
-
-
-
+	<div class="fixed-bottom">CopyRight @ Zeus GP. All rights reserved.</div>
 </body>
 
 
