@@ -13,11 +13,11 @@
 <meta name="author"
 	content="zihoony.kim, S, J, and Bootstrap contributors">
 <!-- <meta name="generator" content="Jekyll v4.0.1"> -->
-<title>Fixed top navbar example · Bootsstrap</title>
+<title>Zeus - touch</title>
 
 <!--     <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/navbar-fixed/"> -->
 <!--   <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/navbars/"> -->
-<!-- Bootstrap core CSS -->
+<!-- Bootstrap core CSS -->S
 <!-- <link href="../assets/dist/css/bootstrap.css" rel="stylesheet"> -->
 
 
@@ -80,7 +80,7 @@ main {
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
 			<ul class="navbar-nav mr-auto">
 				<li class="nav-item active"><a class="nav-link"
-					href="index.jsp">Home <span class="sr-only">(current)</span>
+					href="#">Home <span class="sr-only">(current)</span>
 				</a></li>
 				<li class="nav-item"><a class="nav-link" href="#">Link</a></li>
 				<li class="nav-item dropdown"><a
@@ -96,19 +96,25 @@ main {
 
 				<li class="nav-item"><a class="nav-link disabled" href="#">Disabled</a></li>
 
+			</ul>
+
+
 				<form class="form-inline my-2 my-lg-0">
-					<input class="form-control mr-sm-2 d-flex p-2" type="search"
+					<input class="form-control mr-sm-2 p-2" type="search"
 						placeholder="Search" aria-label="Search">
 					<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
 				</form>
-			</ul>
 
-
-
-
-			<ul class="navbar-nav">
-				<input class="mr-sm-2 d-flex p-2" type="button">
-			</ul>
+			<div class="">
+				<ul class="navbar-nav">
+					<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Basket</button>
+					<button class="btn btn-outline-success my-2 my-sm-0" type="submit">My Page</button>
+					<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Sign Out</button>
+					
+					<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Sign Up</button>
+					<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Sign In</button>
+				</ul>
+			</div>
 		</div>
 	</nav>
 
@@ -167,6 +173,9 @@ main {
 					<a href="#" class="btn btn-primary">지금 후원하기</a>
 				</div>
 			</div>
+
+
+
 
 			<div class="card m-3 " style="width: 18rem;">
 				<img class="card-img-top p-3" src="img/airpods_pro.jpg"
