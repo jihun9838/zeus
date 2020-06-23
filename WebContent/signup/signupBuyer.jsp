@@ -21,17 +21,112 @@
 
 
 <style>
+html,
 body {
-	padding-top: 7rem;
+  height: 100%;
 }
 
-@media ( min-width : 768px) {
-	.bd-placeholder-img-lg {
-		font-size: 3.5rem;
-	}
+body {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f5f5f5;
 }
+
+.form-signin {
+  width: 100%;
+  max-width: 420px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-label-group {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.form-label-group > input,
+.form-label-group > label {
+  height: 3.125rem;
+  padding: .75rem;
+}
+
+.form-label-group > label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  margin-bottom: 0; /* Override default `<label>` margin */
+  line-height: 1.5;
+  color: #495057;
+  pointer-events: none;
+  cursor: text; /* Match the input under the label */
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  transition: all .1s ease-in-out;
+}
+
+.form-label-group input::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.form-label-group input:-ms-input-placeholder {
+  color: transparent;
+}
+
+.form-label-group input::-ms-input-placeholder {
+  color: transparent;
+}
+
+.form-label-group input::-moz-placeholder {
+  color: transparent;
+}
+
+.form-label-group input::placeholder {
+  color: transparent;
+}
+
+.form-label-group input:not(:placeholder-shown) {
+  padding-top: 1.25rem;
+  padding-bottom: .25rem;
+}
+
+.form-label-group input:not(:placeholder-shown) ~ label {
+  padding-top: .25rem;
+  padding-bottom: .25rem;
+  font-size: 12px;
+  color: #777;
+}
+
+/* Fallback for Edge
+-------------------------------------------------- */
+@supports (-ms-ime-align: auto) {
+  .form-label-group > label {
+    display: none;
+  }
+  .form-label-group input::-ms-input-placeholder {
+    color: #777;
+  }
+}
+
+/* Fallback for IE
+-------------------------------------------------- */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .form-label-group > label {
+    display: none;
+  }
+  .form-label-group input:-ms-input-placeholder {
+    color: #777;
+  }
+}
+
 </style>
-
+</head>
+<body>
 
 <!-- 상단 네비게이션 바 -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
@@ -92,25 +187,50 @@ body {
 </nav>
 
 
-</head>
+    <form class="form-signin">
+  <div class="text-center mb-4">
+    <img class="mb-4" src="/zeus/img/zeus_logo_transparent.png" alt="" width="72" height="72">
+    <img class="mb-4" src="/zeus/img/zeus_word_transparent.png" alt="" width="72" height="72">
+    <h1 class="h3 mb-3 font-weight-normal">Sign Up</h1>
+  </div>
 
+  <div class="form-label-group">
+    <input type="text" id="inputAddress" class="form-control" placeholder="Address" required autofocus>
+    <label for="inputAddress">Address</label>
+  </div>
+  
+  <div class="form-label-group">
+    <input type="radio" id="inputGender" class="form-control" placeholder="Male" required>
+    <input type="radio" id="inputGender" class="form-control" placeholder="Female" required>
+    <label for="inputGender">Address</label>
+  </div>
 
-<body>
+  <div class="form-label-group">
+    <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+    <label for="inputPassword">Password</label>
+  </div>
+  
+  <div class="form-label-group">
+    <input type="password" id="inputPasswordCheck" class="form-control" placeholder="Password" required>
+    <label for="inputPasswordCheck">Password Check</label>
+  </div>
+  
+  
 
+  <div class="checkbox mb-3">
+    <label>
+      <span><input type="checkbox" value="remember-me"> Remember me
+      </span>
+    </label>
+  </div>
+  <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+  <p class="mt-5 mb-3 text-muted text-center">&copy; 2020-2020</p>
+</form>
 
-
-
-
-
-
-
-
-
-
-<div class="fixed-bottom">CopyRight @ Zeus GP. All rights reserved.</div>
 </body>
 
 
+</body>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
 	integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
 	crossorigin="anonymous"></script>
@@ -122,7 +242,4 @@ body {
 	src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
 	integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
 	crossorigin="anonymous"></script>
-	
-	
 </html>
-
