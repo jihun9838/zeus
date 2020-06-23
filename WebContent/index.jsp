@@ -17,7 +17,7 @@
 
 <!--     <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/navbar-fixed/"> -->
 <!--   <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/navbars/"> -->
-<!-- Bootstrap core CSS -->S
+<!-- Bootstrap core CSS -->
 <!-- <link href="../assets/dist/css/bootstrap.css" rel="stylesheet"> -->
 
 
@@ -62,61 +62,66 @@ main {
 </style>
 <!-- Custom styles for this template -->
 <!-- <link href="navbar-top-fixed.css" rel="stylesheet"> -->
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+	<a class="navbar-brand" href="/zeus/index.jsp"> <img
+		src="/zeus/img/zeus_logo_transparent.png" alt="logo"
+		style="width: 3rem;">
+	</a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse"
+		data-target="#navbarSupportedContent"
+		aria-controls="navbarSupportedContent" aria-expanded="false"
+		aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+
+	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+		<ul class="navbar-nav mr-auto">
+			<li class="nav-item active"><a class="nav-link" href="#">Home
+					<span class="sr-only">(current)</span>
+			</a></li>
+			<li class="nav-item"><a class="nav-link" href="#">Link</a></li>
+			<li class="nav-item dropdown"><a
+				class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+				role="button" data-toggle="dropdown" aria-haspopup="true"
+				aria-expanded="false"> Dropdown </a>
+				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+					<a class="dropdown-item" href="#">Action</a> <a
+						class="dropdown-item" href="#">Another action</a>
+					<div class="dropdown-divider"></div>
+					<a class="dropdown-item" href="#">Something else here</a>
+				</div></li>
+
+			<li class="nav-item"><a class="nav-link disabled" href="#">Disabled</a></li>
+
+		</ul>
+
+
+		<form class="form-inline my-2 my-lg-0">
+			<input class="form-control mr-sm-2 p-2" type="search"
+				placeholder="Search" aria-label="Search">
+			<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+		</form>
+
+		<div class="">
+			<ul class="navbar-nav">
+				<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Basket</button>
+				<button class="btn btn-outline-success my-2 my-sm-0" type="submit">My
+					Page</button>
+				<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Sign
+					Out</button>
+
+				<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Sign
+					Up</button>
+				<button class="btn btn-outline-success my-2 my-sm-0" type="submit" onclick="window.location.href='/zeus/login/loginForm.jsp'">Sign
+					In</button>
+			</ul>
+		</div>
+	</div>
+</nav>
 </head>
 <body>
 
-
-	<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-		<a class="navbar-brand" href="index.jsp"> <img
-			src="img/zeus_logo_transparent.png" alt="logo" style="width: 3rem;">
-		</a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse"
-			data-target="#navbarSupportedContent"
-			aria-controls="navbarSupportedContent" aria-expanded="false"
-			aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-
-		<div class="collapse navbar-collapse" id="navbarSupportedContent">
-			<ul class="navbar-nav mr-auto">
-				<li class="nav-item active"><a class="nav-link"
-					href="#">Home <span class="sr-only">(current)</span>
-				</a></li>
-				<li class="nav-item"><a class="nav-link" href="#">Link</a></li>
-				<li class="nav-item dropdown"><a
-					class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
-					role="button" data-toggle="dropdown" aria-haspopup="true"
-					aria-expanded="false"> Dropdown </a>
-					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-						<a class="dropdown-item" href="#">Action</a> <a
-							class="dropdown-item" href="#">Another action</a>
-						<div class="dropdown-divider"></div>
-						<a class="dropdown-item" href="#">Something else here</a>
-					</div></li>
-
-				<li class="nav-item"><a class="nav-link disabled" href="#">Disabled</a></li>
-
-			</ul>
-
-
-				<form class="form-inline my-2 my-lg-0">
-					<input class="form-control mr-sm-2 p-2" type="search"
-						placeholder="Search" aria-label="Search">
-					<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-				</form>
-
-			<div class="">
-				<ul class="navbar-nav">
-					<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Basket</button>
-					<button class="btn btn-outline-success my-2 my-sm-0" type="submit">My Page</button>
-					<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Sign Out</button>
-					
-					<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Sign Up</button>
-					<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Sign In</button>
-				</ul>
-			</div>
-		</div>
-	</nav>
 
 
 
@@ -130,7 +135,7 @@ main {
 			<p class="lead">
 				온전히 빠져들게 하는 액티브 노이즈 캔슬링.<br> 주변의 소리를 들려주는 주변음 허용 모드. <br>
 			</p>
-			<a class="btn btn-lg btn-primary" href="../components/navbar/"
+			<a class="btn btn-lg btn-primary" href="search/searchProc.jsp"
 				role="button">지금 지훈이에게 후원하기 &raquo;</a>
 		</div>
 	</main>
@@ -258,7 +263,8 @@ main {
 	<!-- 	<script src="/dist/js/bootstrap.bundle.js"></script> -->
 
 
-	<div class="fixed-bottom">CopyRight @ Zeus GP. All rights reserved.</div>
+	<div class="fixed-bottom">CopyRight @ Zeus GP. All rights
+		reserved.</div>
 </body>
 
 
