@@ -7,34 +7,11 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport"
-	content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="description" content="ZEUS">
-<meta name="author"
-	content="zihoony.kim, S, J, and Bootstrap contributors">
+<meta name="viewport" 		content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" 	content="ZEUS">
+<meta name="author"			content="zihoony.kim, S, J, and Bootstrap contributors">
 <!-- <meta name="generator" content="Jekyll v4.0.1"> -->
 <title>Zeus</title>
-
-<!--     <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/navbar-fixed/"> -->
-<!--   <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/navbars/"> -->
-<!-- Bootstrap core CSS -->
-<!-- <link href="../assets/dist/css/bootstrap.css" rel="stylesheet"> -->
-
-
-<!-- <link rel="stylesheet" -->
-<!-- 	href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.5.0/cerulean/bootstrap.min.css"> -->
-<!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" -->
-<!-- 	integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" -->
-<!-- 	crossorigin="anonymous"></script> -->
-<!-- <script -->
-<!-- 	src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" -->
-<!-- 	integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" -->
-<!-- 	crossorigin="anonymous"></script> -->
-<!-- <script -->
-<!-- 	src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" -->
-<!-- 	integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" -->
-<!-- 	crossorigin="anonymous"></script> -->
-
 
 <link rel="stylesheet"
 	href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
@@ -43,28 +20,19 @@
 
 
 <style>
-main {
+body {
 	padding-top: 7rem;
 }
+
 @media ( min-width : 768px) {
 	.bd-placeholder-img-lg {
 		font-size: 3.5rem;
 	}
 }
-/*overflow:hidden을 선언해줘야 확대 시 이미지가 밖으로 넘치지 않아요!*/
-/* .scale img { transform:scale(1); transition:transform 0.5s linear;} */
-
-.scale:hover img { 
-	transform:scale(1.5);             /*  default */
-   -webkit-transform:scale(1.5);     /*  크롬 */ 
-   -moz-transform:scale(1.5);       /* FireFox */ 
-   -o-transform:scale(1.5);           /* Opera */ 
-	border: 1px solid orange;
-}
 </style>
-<!-- Custom styles for this template -->
-<!-- <link href="navbar-top-fixed.css" rel="stylesheet"> -->
 
+
+<!-- 상단 네비게이션 바 -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
 	<a class="navbar-brand" href="/zeus/index.jsp"> <img
 		src="/zeus/img/zeus_logo_transparent.png" alt="logo"
@@ -108,7 +76,8 @@ main {
 		<div class="">
 			<ul class="navbar-nav">
 				<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Basket</button>
-				<button class="btn btn-outline-success my-2 my-sm-0" type="submit" onclick="window.location.href='/zeus/dashboard/mypage.jsp'">My Page</button>
+				<button class="btn btn-outline-success my-2 my-sm-0" type="submit">My
+					Page</button>
 				<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Sign
 					Out</button>
 
@@ -119,38 +88,62 @@ main {
 		</div>
 	</div>
 </nav>
-
-
 </head>
 <body>
 
+<div class="container">
 
+		<ul class="list-unstyled">
+			<li class="media"><img class="mr-3 w-25"
+				src="/zeus/img/airpods_pro.jpg" alt="Generic placeholder image">
+				<div class="media-body">
+					<h5 class="mt-0 mb-1"><i>소리로 소음을 압도하는 </i>AirPods Pro</h5>
+					최소
+					<h4>24시간</h4>
+					배터리 선을 모르는 충전.<br> 지칠 줄 모르는 플레이.<br><br>
+					
+					단돈 <b>250원</b>에 만나보세요
+					
+				</div>
+			
+				<div><input type="button" value="선택"></div>	
+			</li>
+			
+			<li><hr></li>
+			
+			<li class="media my-4"><img class="mr-3 w-25"
+				src="/zeus/img/airpods_pro.jpg" alt="Generic placeholder image">
+				<div class="media-body">
+					<h5 class="mt-0 mb-1">List-based media object</h5>
+					Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
+					scelerisque ante sollicitudin. Cras purus odio, vestibulum in
+					vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi
+					vulputate fringilla. Donec lacinia congue felis in faucibus.
+				</div></li>
+				
+			<li><hr></li>
+			
+			<li class="media"><img class="mr-3 w-25"
+				src="/zeus/img/airpods_pro.jpg" alt="Generic placeholder image">
+				<div class="media-body">
+					<h5 class="mt-0 mb-1">List-based media object</h5>
+					Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
+					scelerisque ante sollicitudin. Cras purus odio, vestibulum in
+					vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi
+					vulputate fringilla. Donec lacinia congue felis in faucibus.
+				</div></li>
+		</ul>
 
-
-
-
-
-
-	<main role="main" class="container">
-		<div class="jumbotron text-center">
-			<h1>에어팟 프로, 그것은 섹시하니까</h1>
-			<p class="lead">
-				온전히 빠져들게 하는 액티브 노이즈 캔슬링.<br> 주변의 소리를 들려주는 주변음 허용 모드. <br>
-			</p>
-			<a class="btn btn-lg btn-primary" href="search/searchProc.jsp"
-				role="button">지금 지훈이에게 후원하기 &raquo;</a>
-			<a class="btn btn-lg btn-primary" href="/zeus/price/priceForm.jsp" role="button">가격 보기 &raquo;</a>
+		<div class="text-center">
+			<h1 class="display-1" style="border: 5px solid red; ">지금 주문하기</h1>
 		</div>
-	</main>
 
 
 
-
-	<div class="container">
-		<div class="row text-center d-flex justify-content-between">
-
-
-			<div class="card m-3 " style="width: 18rem;">
+		<div class="col text-center">
+	
+		<div class="row">
+			<div class="card m-3" style="width: 18rem;">
 				<div class="scale">
 					<img class="card-img-top p-3" src="/zeus/img/airpods_pro.jpg"
 						alt="Card image cap">
@@ -167,121 +160,107 @@ main {
 					<a href="#" class="btn btn-primary">지금 후원하기</a>
 				</div>
 			</div>
-
-			<div class="card m-3 " style="width: 18rem;">
-				<div class="scale">
-					<img class="card-img-top p-3" src="/zeus/img/airpods_pro.jpg"
-						alt="Card image cap">
-				</div>
-				<div class="card-body">
-					<h3 class="card-title text-center">
-						<i>소리로 소음을<br> 압도하다.
-						</i>
-					</h3>
-					<p class="card-text">최소
-					<h4>24시간</h4>
-					배터리 선을 모르는 충전.<br> 지칠 줄 모르는 플레이.
-					</p>
-					<a href="#" class="btn btn-primary">지금 후원하기</a>
-				</div>
-			</div>
-
-
-
-
-			<div class="card m-3 " style="width: 18rem;">
-				<div class="scale">
-					<img class="card-img-top p-3" src="/zeus/img/airpods_pro.jpg"
-						alt="Card image cap">
-				</div>
-				<div class="card-body">
-					<h3 class="card-title text-center">
-						<i>소리로 소음을<br> 압도하다.
-						</i>
-					</h3>
-					<p class="card-text">최소
-					<h4>24시간</h4>
-					배터리 선을 모르는 충전.<br> 지칠 줄 모르는 플레이.
-					</p>
-					<a href="#" class="btn btn-primary">지금 후원하기</a>
-				</div>
-			</div>
-
-
-			<div class="card m-3 " style="width: 18rem;">
-				<div class="scale">
-					<img class="card-img-top p-3" src="/zeus/img/airpods_pro.jpg"
-						alt="Card image cap">
-				</div>
-				<div class="card-body">
-					<h3 class="card-title text-center">
-						<i>소리로 소음을<br> 압도하다.
-						</i>
-					</h3>
-					<p class="card-text">최소
-					<h4>24시간</h4>
-					배터리 선을 모르는 충전.<br> 지칠 줄 모르는 플레이.
-					</p>
-					<a href="#" class="btn btn-primary">지금 후원하기</a>
-				</div>
-			</div>
-
-			<div class="card m-3 " style="width: 18rem;">
-				<div class="scale">
-					<img class="card-img-top p-3" src="/zeus/img/airpods_pro.jpg"
-						alt="Card image cap">
-				</div>
-				<div class="card-body">
-					<h3 class="card-title text-center">
-						<i>소리로 소음을<br> 압도하다.
-						</i>
-					</h3>
-					<p class="card-text">최소
-					<h4>24시간</h4>
-					배터리 선을 모르는 충전.<br> 지칠 줄 모르는 플레이.
-					</p>
-					<a href="#" class="btn btn-primary">지금 후원하기</a>
-				</div>
-			</div>
-
-			<div class="card m-3 " style="width: 18rem;">
-				<div class="scale">
-					<img class="card-img-top p-3" src="/zeus/img/airpods_pro.jpg"
-						alt="Card image cap">
-				</div>
-				<div class="card-body">
-					<h3 class="card-title text-center">
-						<i>소리로 소음을<br> 압도하다.
-						</i>
-					</h3>
-					<p class="card-text">최소
-					<h4>24시간</h4>
-					배터리 선을 모르는 충전.<br> 지칠 줄 모르는 플레이.
-					</p>
-					<a href="#" class="btn btn-primary">지금 후원하기</a>
-				</div>
-			</div>
-
-
-
 		</div>
+			
+	
+			<div class="card m-3" style="width: 18rem;">
+				<div class="scale">
+					<img class="card-img-top p-3" src="/zeus/img/airpods_pro.jpg"
+						alt="Card image cap">
+				</div>
+				<div class="card-body">
+					<h3 class="card-title text-center">
+						<i>소리로 소음을<br> 압도하다.
+						</i>
+					</h3>
+					<p class="card-text">최소
+					<h4>24시간</h4>
+					배터리 선을 모르는 충전.<br> 지칠 줄 모르는 플레이.
+					</p>
+					<a href="#" class="btn btn-primary">지금 후원하기</a>
+				</div>
+			</div>
+			
+	
+		<div class="row">
+			<div class="card m-3" style="width: 18rem;">
+				<div class="scale">
+					<img class="card-img-top p-3" src="/zeus/img/airpods_pro.jpg"
+						alt="Card image cap">
+				</div>
+				<div class="card-body">
+					<h3 class="card-title text-center">
+						<i>소리로 소음을<br> 압도하다.
+						</i>
+					</h3>
+					<p class="card-text">최소
+					<h4>24시간</h4>
+					배터리 선을 모르는 충전.<br> 지칠 줄 모르는 플레이.
+					</p>
+					<a href="#" class="btn btn-primary">지금 후원하기</a>
+				</div>
+			</div>
+		</div>
+			
+	
+		<div class="row">
+			<div class="card m-3" style="width: 18rem;">
+				<div class="scale">
+					<img class="card-img-top p-3" src="/zeus/img/airpods_pro.jpg"
+						alt="Card image cap">
+				</div>
+				<div class="card-body">
+					<h3 class="card-title text-center">
+						<i>소리로 소음을<br> 압도하다.
+						</i>
+					</h3>
+					<p class="card-text">최소
+					<h4>24시간</h4>
+					배터리 선을 모르는 충전.<br> 지칠 줄 모르는 플레이.
+					</p>
+					<a href="#" class="btn btn-primary">지금 후원하기</a>
+				</div>
+			</div>
+		</div>
+			
+	
+		<div class="row">
+			<div class="card m-3" style="width: 18rem;">
+				<div class="scale">
+					<img class="card-img-top p-3" src="/zeus/img/airpods_pro.jpg"
+						alt="Card image cap">
+				</div>
+				<div class="card-body">
+					<h3 class="card-title text-center">
+						<i>소리로 소음을<br> 압도하다.
+						</i>
+					</h3>
+					<p class="card-text">최소
+					<h4>24시간</h4>
+					배터리 선을 모르는 충전.<br> 지칠 줄 모르는 플레이.
+					</p>
+					<a href="#" class="btn btn-primary">지금 후원하기</a>
+				</div>
+			</div>
+		</div>
+			
+		
 	</div>
+</div>
+		
 
 
 
-	<!-- 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" -->
-	<!-- 		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" -->
-	<!-- 		crossorigin="anonymous"></script> -->
-	<script>
-		// 		window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')
-	</script>
-	<!-- 	<script src="/dist/js/bootstrap.bundle.js"></script> -->
 
 
-	<div class="fixed-bottom">CopyRight @ Zeus GP. All rights
-		reserved.</div>
+
+
+
+
+
+
+<div class="fixed-bottom">CopyRight @ Zeus GP. All rights reserved.</div>
 </body>
-
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
 	integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
