@@ -107,7 +107,7 @@ main {
 
 		<div class="">
 			<ul class="navbar-nav">
-				<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Basket</button>
+				<button class="btn btn-outline-success my-2 my-sm-0" type="submit" onclick="window.location.href='/zeus/cart/cart.jsp'">Basket</button>
 				<button class="btn btn-outline-success my-2 my-sm-0" type="submit" onclick="window.location.href='/zeus/dashboard/mypage.jsp'">My Page</button>
 				<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Sign
 					Out</button>
@@ -137,9 +137,14 @@ main {
 			<p class="lead">
 				온전히 빠져들게 하는 액티브 노이즈 캔슬링.<br> 주변의 소리를 들려주는 주변음 허용 모드. <br>
 			</p>
+			<p>
 			<a class="btn btn-lg btn-primary" href="search/searchProc.jsp"
 				role="button">지금 지훈이에게 후원하기 &raquo;</a>
 			<a class="btn btn-lg btn-primary" href="/zeus/price/priceForm.jsp" role="button">가격 보기 &raquo;</a>
+			</p>
+			<p>
+			<a class="btn btn-lg btn-primary" href="/zeus/carousel.jsp" role="button">Carousel &raquo;</a>
+			</p>
 		</div>
 	</main>
 
