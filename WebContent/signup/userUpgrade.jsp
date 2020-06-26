@@ -10,7 +10,7 @@
 <meta name="description" 	content="ZEUS">
 <meta name="author"			content="zihoony.kim, S, J, and Bootstrap contributors">
 <!-- <meta name="generator" content="Jekyll v4.0.1"> -->
-<link rel="shortcut icon" href="/zeus/img/zeus_logo_transparent.png">
+<link rel="shortcut icon" href="/img/zeus_logo_transparent.png">
 <title>Zeus</title>
 
 
@@ -130,8 +130,8 @@ body {
 
 <!-- 상단 네비게이션 바 -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-	<a class="navbar-brand" href="/zeus/index.jsp"> 
-		<img src="/zeus/img/zeus_logo_transparent.png" alt="logo" style="width: 1.5rem;">
+	<a class="navbar-brand" href="/index.jsp"> 
+		<img src="/img/zeus_logo_transparent.png" alt="logo" style="width: 1.5rem;">
 	</a>
 	<button class="navbar-toggler" type="button" data-toggle="collapse"
 		data-target="#navbarSupportedContent"
@@ -175,12 +175,12 @@ body {
 
 		<div class="">
 			<ul class="navbar-nav">
-				<button class="btn btn-outline-success my-2 my-sm-0" type="submit" onclick="window.location.href='/zeus/cart/cart.jsp'">Basket</button>
-				<button class="btn btn-outline-success my-2 my-sm-0" type="submit" onclick="window.location.href='/zeus/dashboard/mypage.jsp'">My Page</button>
-				<button class="btn btn-outline-success my-2 my-sm-0" type="submit" onclick="window.location.href='/zeus/signin/signout.jsp'">Sign Out</button>
+				<button class="btn btn-outline-success my-2 my-sm-0" type="submit" onclick="window.location.href='/cart/cart.jsp'">Basket</button>
+				<button class="btn btn-outline-success my-2 my-sm-0" type="submit" onclick="window.location.href='/dashboard/mypage.jsp'">My Page</button>
+				<button class="btn btn-outline-success my-2 my-sm-0" type="submit" onclick="window.location.href='/signin/signout.jsp'">Sign Out</button>
 
-				<button class="btn btn-outline-success my-2 my-sm-0" type="submit" onclick="window.location.href='/zeus/signup/signup.jsp'">Sign Up</button>
-				<button class="btn btn-outline-success my-2 my-sm-0" type="submit" onclick="window.location.href='/zeus/signin/signin.jsp'">Sign In</button>
+				<button class="btn btn-outline-success my-2 my-sm-0" type="submit" onclick="window.location.href='/signup/signup.jsp'">Sign Up</button>
+				<button class="btn btn-outline-success my-2 my-sm-0" type="submit" onclick="window.location.href='/signin/signin.jsp'">Sign In</button>
 			</ul>
 		</div>
 	</div>
@@ -189,15 +189,15 @@ body {
 
 <form class="form-signin">
   <div class="text-center mb-4">
-    <img class="mb-4" src="/zeus/img/zeus_logo_transparent.png" alt="" width="72" height="72">
-    <img class="mb-4" src="/zeus/img/zeus_word_transparent.png" alt="" width="72" height="72">
+    <img class="mb-4" src="/img/zeus_logo_transparent.png" alt="" width="72" height="72">
+    <img class="mb-4" src="/img/zeus_word_transparent.png" alt="" width="72" height="72">
     <h1 class="h3 mb-3 font-weight-normal">Upgrade</h1>
   </div>
 		<div class="text-center">
 			<button class="btn btn-lg btn-primary my-2 my-sm-0" type="submit"
-			 onclick="window.location.href='/zeus/signup/signupBuyer.jsp'">Buyer Upgrade &raquo;</button>
+			 onclick="window.location.href='/signup/signupBuyer.jsp'">Buyer Upgrade &raquo;</button>
 			<button class="btn btn-primary my-2 my-sm-0" type="submit"
-			 onclick="window.location.href='/zeus/signin/signupSeller.jsp'">Seller Upgrade &raquo;</button>
+			 onclick="window.location.href='/signin/signupSeller.jsp'">Seller Upgrade &raquo;</button>
 		</div>
   <div class="checkbox mb-3">
   

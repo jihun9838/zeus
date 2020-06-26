@@ -10,7 +10,7 @@
 <meta name="description" 	content="ZEUS">
 <meta name="author"			content="zihoony.kim, S, J, and Bootstrap contributors">
 <!-- <meta name="generator" content="Jekyll v4.0.1"> -->
-<link rel="shortcut icon" href="/zeus/img/zeus_logo_transparent.png">
+<link rel="shortcut icon" href="/img/zeus_logo_transparent.png">
 <title>Zeus</title>
 
 
@@ -35,8 +35,8 @@ body {
 
 <!-- 상단 네비게이션 바 -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-	<a class="navbar-brand" href="/zeus/index.jsp"> 
-		<img src="/zeus/img/zeus_logo_transparent.png" alt="logo" style="width: 1.5rem;">
+	<a class="navbar-brand" href="/index.jsp"> 
+		<img src="/img/zeus_logo_transparent.png" alt="logo" style="width: 1.5rem;">
 	</a>
 	<button class="navbar-toggler" type="button" data-toggle="collapse"
 		data-target="#navbarSupportedContent"
@@ -80,12 +80,12 @@ body {
 
 		<div class="">
 			<ul class="navbar-nav">
-				<button class="btn btn-outline-success my-2 my-sm-0" type="submit" onclick="window.location.href='/zeus/cart/cart.jsp'">Basket</button>
-				<button class="btn btn-outline-success my-2 my-sm-0" type="submit" onclick="window.location.href='/zeus/dashboard/mypage.jsp'">My Page</button>
-				<button class="btn btn-outline-success my-2 my-sm-0" type="submit" onclick="window.location.href='/zeus/signin/signout.jsp'">Sign Out</button>
+				<button class="btn btn-outline-success my-2 my-sm-0" type="submit" onclick="window.location.href='/cart/cart.jsp'">Basket</button>
+				<button class="btn btn-outline-success my-2 my-sm-0" type="submit" onclick="window.location.href='/dashboard/mypage.jsp'">My Page</button>
+				<button class="btn btn-outline-success my-2 my-sm-0" type="submit" onclick="window.location.href='/signin/signout.jsp'">Sign Out</button>
 
-				<button class="btn btn-outline-success my-2 my-sm-0" type="submit" onclick="window.location.href='/zeus/signup/signup.jsp'">Sign Up</button>
-				<button class="btn btn-outline-success my-2 my-sm-0" type="submit" onclick="window.location.href='/zeus/signin/signin.jsp'">Sign In</button>
+				<button class="btn btn-outline-success my-2 my-sm-0" type="submit" onclick="window.location.href='/signup/signup.jsp'">Sign Up</button>
+				<button class="btn btn-outline-success my-2 my-sm-0" type="submit" onclick="window.location.href='/signin/signin.jsp'">Sign In</button>
 			</ul>
 		</div>
 	</div>

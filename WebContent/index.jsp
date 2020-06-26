@@ -10,7 +10,7 @@
 <meta name="description" 	content="ZEUS">
 <meta name="author"			content="zihoony.kim, S, J, and Bootstrap contributors">
 <!-- <meta name="generator" content="Jekyll v4.0.1"> -->
-<link rel="shortcut icon" href="/zeus/img/zeus_logo_transparent.png">
+<link rel="shortcut icon" href="/img/zeus_logo_transparent.png">
 <title>Zeus</title>
 
 
@@ -66,8 +66,8 @@ main {
 
 <!-- 상단 네비게이션 바 -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-	<a class="navbar-brand" href="/zeus/index.jsp"> 
-		<img src="/zeus/img/zeus_logo_transparent.png" alt="logo" style="width: 1.5rem;">
+	<a class="navbar-brand" href="/index.jsp"> 
+		<img src="/img/zeus_logo_transparent.png" alt="logo" style="width: 1.5rem;">
 	</a>
 	<button class="navbar-toggler" type="button" data-toggle="collapse"
 		data-target="#navbarSupportedContent"
@@ -111,12 +111,12 @@ main {
 
 		<div class="">
 			<ul class="navbar-nav">
-				<button class="btn btn-outline-success my-2 my-sm-0" type="submit" onclick="window.location.href='/zeus/cart/cart.jsp'">Basket</button>
-				<button class="btn btn-outline-success my-2 my-sm-0" type="submit" onclick="window.location.href='/zeus/dashboard/mypage.jsp'">My Page</button>
-				<button class="btn btn-outline-success my-2 my-sm-0" type="submit" onclick="window.location.href='/zeus/signin/signout.jsp'">Sign Out</button>
+				<button class="btn btn-outline-success my-2 my-sm-0" type="submit" onclick="window.location.href='/cart/cart.jsp'">Basket</button>
+				<button class="btn btn-outline-success my-2 my-sm-0" type="submit" onclick="window.location.href='/dashboard/mypage.jsp'">My Page</button>
+				<button class="btn btn-outline-success my-2 my-sm-0" type="submit" onclick="window.location.href='/signin/signout.jsp'">Sign Out</button>
 
-				<button class="btn btn-outline-success my-2 my-sm-0" type="submit" onclick="window.location.href='/zeus/signup/signup.jsp'">Sign Up</button>
-				<button class="btn btn-outline-success my-2 my-sm-0" type="submit" onclick="window.location.href='/zeus/signin/signin.jsp'">Sign In</button>
+				<button class="btn btn-outline-success my-2 my-sm-0" type="submit" onclick="window.location.href='/signup/signup.jsp'">Sign Up</button>
+				<button class="btn btn-outline-success my-2 my-sm-0" type="submit" onclick="window.location.href='/signin/signin.jsp'">Sign In</button>
 			</ul>
 		</div>
 	</div>
@@ -141,18 +141,18 @@ main {
 				온전히 빠져들게 하는 액티브 노이즈 캔슬링.<br> 주변의 소리를 들려주는 주변음 허용 모드. <br>
 			</p>
 			<p>
-			<a class="btn btn-lg btn-primary" href="search/searchProc.jsp"
+			<a class="btn btn-lg btn-primary" href="/search/searchProc.jsp"
 				role="button">지금 지훈이에게 후원하기 &raquo;</a>
-			<a class="btn btn-lg btn-primary" href="/zeus/price/priceForm.jsp" role="button">가격 보기 &raquo;</a>
+			<a class="btn btn-lg btn-primary" href="/price/priceForm.jsp" role="button">가격 보기 &raquo;</a>
 			</p>
 			<p>
-			<a class="btn btn-lg btn-primary" href="/zeus/carousel.jsp" role="button">Carousel &raquo;</a>
+			<a class="btn btn-lg btn-primary" href="/carousel.jsp" role="button">Carousel &raquo;</a>
 			</p>
 			<p>
 				<button class="btn btn-lg btn-primary my-2 my-sm-0" type="submit"
-					 onclick="window.location.href='/zeus/signup/signupBuyer.jsp'">Buyer Upgrade &raquo;</button>
+					 onclick="window.location.href='/signup/signupBuyer.jsp'">Buyer Upgrade &raquo;</button>
 				<button class="btn btn-lg btn-primary my-2 my-sm-0" type="submit"
-					 onclick="window.location.href='/zeus/signin/signupSeller.jsp'">Seller Upgrade &raquo;</button>
+					 onclick="window.location.href='/signup/signupSeller.jsp'">Seller Upgrade &raquo;</button>
 			</p>
 		</div>
 	</main>
@@ -161,12 +161,12 @@ main {
 
 
 	<div class="container">
-		<div class="row text-center d-flex justify-content-between">
+		<div class="row d-flex justify-content-around">
 
 
 			<div class="card m-3 " style="width: 18rem;">
 				<div class="scale">
-					<img class="card-img-top p-3" src="/zeus/img/airpods_pro.jpg"
+					<img class="card-img-top p-3" src="/img/airpods_pro.jpg"
 						alt="Card image cap">
 				</div>
 				<div class="card-body">
@@ -184,7 +184,7 @@ main {
 
 			<div class="card m-3 " style="width: 18rem;">
 				<div class="scale">
-					<img class="card-img-top p-3" src="/zeus/img/airpods_pro.jpg"
+					<img class="card-img-top p-3" src="/img/airpods_pro.jpg"
 						alt="Card image cap">
 				</div>
 				<div class="card-body">
@@ -205,7 +205,7 @@ main {
 
 			<div class="card m-3 " style="width: 18rem;">
 				<div class="scale">
-					<img class="card-img-top p-3" src="/zeus/img/airpods_pro.jpg"
+					<img class="card-img-top p-3" src="/img/airpods_pro.jpg"
 						alt="Card image cap">
 				</div>
 				<div class="card-body">
@@ -224,7 +224,7 @@ main {
 
 			<div class="card m-3 " style="width: 18rem;">
 				<div class="scale">
-					<img class="card-img-top p-3" src="/zeus/img/airpods_pro.jpg"
+					<img class="card-img-top p-3" src="/img/airpods_pro.jpg"
 						alt="Card image cap">
 				</div>
 				<div class="card-body">
@@ -242,7 +242,7 @@ main {
 
 			<div class="card m-3 " style="width: 18rem;">
 				<div class="scale">
-					<img class="card-img-top p-3" src="/zeus/img/airpods_pro.jpg"
+					<img class="card-img-top p-3" src="/img/airpods_pro.jpg"
 						alt="Card image cap">
 				</div>
 				<div class="card-body">
@@ -260,7 +260,7 @@ main {
 
 			<div class="card m-3 " style="width: 18rem;">
 				<div class="scale">
-					<img class="card-img-top p-3" src="/zeus/img/airpods_pro.jpg"
+					<img class="card-img-top p-3" src="/img/airpods_pro.jpg"
 						alt="Card image cap">
 				</div>
 				<div class="card-body">

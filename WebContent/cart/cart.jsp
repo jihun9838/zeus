@@ -10,7 +10,7 @@
 <meta name="description" 	content="ZEUS">
 <meta name="author"			content="zihoony.kim, S, J, and Bootstrap contributors">
 <!-- <meta name="generator" content="Jekyll v4.0.1"> -->
-<link rel="shortcut icon" href="/zeus/img/zeus_logo_transparent.png">
+<link rel="shortcut icon" href="/img/zeus_logo_transparent.png">
 <title>Zeus</title>
 
 
@@ -35,8 +35,8 @@ body {
 
 <!-- 상단 네비게이션 바 -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-	<a class="navbar-brand" href="/zeus/index.jsp"> 
-		<img src="/zeus/img/zeus_logo_transparent.png" alt="logo" style="width: 1.5rem;">
+	<a class="navbar-brand" href="/index.jsp"> 
+		<img src="/img/zeus_logo_transparent.png" alt="logo" style="width: 1.5rem;">
 	</a>
 	<button class="navbar-toggler" type="button" data-toggle="collapse"
 		data-target="#navbarSupportedContent"
@@ -80,12 +80,12 @@ body {
 
 		<div class="">
 			<ul class="navbar-nav">
-				<button class="btn btn-outline-success my-2 my-sm-0" type="submit" onclick="window.location.href='/zeus/cart/cart.jsp'">Basket</button>
-				<button class="btn btn-outline-success my-2 my-sm-0" type="submit" onclick="window.location.href='/zeus/dashboard/mypage.jsp'">My Page</button>
-				<button class="btn btn-outline-success my-2 my-sm-0" type="submit" onclick="window.location.href='/zeus/signin/signout.jsp'">Sign Out</button>
+				<button class="btn btn-outline-success my-2 my-sm-0" type="submit" onclick="window.location.href='/cart/cart.jsp'">Basket</button>
+				<button class="btn btn-outline-success my-2 my-sm-0" type="submit" onclick="window.location.href='/dashboard/mypage.jsp'">My Page</button>
+				<button class="btn btn-outline-success my-2 my-sm-0" type="submit" onclick="window.location.href='/signin/signout.jsp'">Sign Out</button>
 
-				<button class="btn btn-outline-success my-2 my-sm-0" type="submit" onclick="window.location.href='/zeus/signup/signup.jsp'">Sign Up</button>
-				<button class="btn btn-outline-success my-2 my-sm-0" type="submit" onclick="window.location.href='/zeus/signin/signin.jsp'">Sign In</button>
+				<button class="btn btn-outline-success my-2 my-sm-0" type="submit" onclick="window.location.href='/signup/signup.jsp'">Sign Up</button>
+				<button class="btn btn-outline-success my-2 my-sm-0" type="submit" onclick="window.location.href='/signin/signin.jsp'">Sign In</button>
 			</ul>
 		</div>
 	</div>
@@ -100,9 +100,11 @@ body {
 
 <div class="container">
 
-		<ul class="list-unstyled">
+	<ul class="list-unstyled">
+		
+		
 			<li class="media"><img class="mr-3 w-25"
-				src="/zeus/img/airpods_pro.jpg" alt="Generic placeholder image">
+				src="/img/airpods_pro.jpg" alt="Generic placeholder image">
 				<div class="media-body">
 					<h5 class="mt-0 mb-1"><i>소리로 소음을 압도하는 </i>AirPods Pro</h5>
 					최소
@@ -118,141 +120,48 @@ body {
 			
 			<li><hr></li>
 			
-			<li class="media my-4"><img class="mr-3 w-25"
-				src="/zeus/img/airpods_pro.jpg" alt="Generic placeholder image">
+			<li class="media"><img class="mr-3 w-25"
+				src="/img/airpods_pro.jpg" alt="Generic placeholder image">
 				<div class="media-body">
-					<h5 class="mt-0 mb-1">List-based media object</h5>
-					Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
-					scelerisque ante sollicitudin. Cras purus odio, vestibulum in
-					vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi
-					vulputate fringilla. Donec lacinia congue felis in faucibus.
-				</div></li>
-				
+					<h5 class="mt-0 mb-1"><i>소리로 소음을 압도하는 </i>AirPods Pro</h5>
+					최소
+					<h4>24시간</h4>
+					배터리 선을 모르는 충전.<br> 지칠 줄 모르는 플레이.<br><br>
+					
+					단돈 <b>250원</b>에 만나보세요
+					
+				</div>
+			
+				<div><input type="button" value="선택"></div>	
+			</li>
+			
 			<li><hr></li>
 			
 			<li class="media"><img class="mr-3 w-25"
-				src="/zeus/img/airpods_pro.jpg" alt="Generic placeholder image">
+				src="/img/airpods_pro.jpg" alt="Generic placeholder image">
 				<div class="media-body">
-					<h5 class="mt-0 mb-1">List-based media object</h5>
-					Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
-					scelerisque ante sollicitudin. Cras purus odio, vestibulum in
-					vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi
-					vulputate fringilla. Donec lacinia congue felis in faucibus.
-				</div></li>
-		</ul>
+					<h5 class="mt-0 mb-1"><i>소리로 소음을 압도하는 </i>AirPods Pro</h5>
+					최소
+					<h4>24시간</h4>
+					배터리 선을 모르는 충전.<br> 지칠 줄 모르는 플레이.<br><br>
+					
+					단돈 <b>250원</b>에 만나보세요
+					
+				</div>
+			
+				<div><input type="button" value="선택"></div>	
+			</li>
+			
+			<li><hr></li>
+			
+			
+			
+	</ul>
 
 		<div class="text-center">
 			<h1 class="display-1" style="border: 5px solid red; ">지금 주문하기</h1>
 		</div>
 
-
-
-		<div class="col text-center">
-	
-		<div class="row">
-			<div class="card m-3" style="width: 18rem;">
-				<div class="scale">
-					<img class="card-img-top p-3" src="/zeus/img/airpods_pro.jpg"
-						alt="Card image cap">
-				</div>
-				<div class="card-body">
-					<h3 class="card-title text-center">
-						<i>소리로 소음을<br> 압도하다.
-						</i>
-					</h3>
-					<p class="card-text">최소
-					<h4>24시간</h4>
-					배터리 선을 모르는 충전.<br> 지칠 줄 모르는 플레이.
-					</p>
-					<a href="#" class="btn btn-primary">지금 후원하기</a>
-				</div>
-			</div>
-		</div>
-			
-	
-			<div class="card m-3" style="width: 18rem;">
-				<div class="scale">
-					<img class="card-img-top p-3" src="/zeus/img/airpods_pro.jpg"
-						alt="Card image cap">
-				</div>
-				<div class="card-body">
-					<h3 class="card-title text-center">
-						<i>소리로 소음을<br> 압도하다.
-						</i>
-					</h3>
-					<p class="card-text">최소
-					<h4>24시간</h4>
-					배터리 선을 모르는 충전.<br> 지칠 줄 모르는 플레이.
-					</p>
-					<a href="#" class="btn btn-primary">지금 후원하기</a>
-				</div>
-			</div>
-			
-	
-		<div class="row">
-			<div class="card m-3" style="width: 18rem;">
-				<div class="scale">
-					<img class="card-img-top p-3" src="/zeus/img/airpods_pro.jpg"
-						alt="Card image cap">
-				</div>
-				<div class="card-body">
-					<h3 class="card-title text-center">
-						<i>소리로 소음을<br> 압도하다.
-						</i>
-					</h3>
-					<p class="card-text">최소
-					<h4>24시간</h4>
-					배터리 선을 모르는 충전.<br> 지칠 줄 모르는 플레이.
-					</p>
-					<a href="#" class="btn btn-primary">지금 후원하기</a>
-				</div>
-			</div>
-		</div>
-			
-	
-		<div class="row">
-			<div class="card m-3" style="width: 18rem;">
-				<div class="scale">
-					<img class="card-img-top p-3" src="/zeus/img/airpods_pro.jpg"
-						alt="Card image cap">
-				</div>
-				<div class="card-body">
-					<h3 class="card-title text-center">
-						<i>소리로 소음을<br> 압도하다.
-						</i>
-					</h3>
-					<p class="card-text">최소
-					<h4>24시간</h4>
-					배터리 선을 모르는 충전.<br> 지칠 줄 모르는 플레이.
-					</p>
-					<a href="#" class="btn btn-primary">지금 후원하기</a>
-				</div>
-			</div>
-		</div>
-			
-	
-		<div class="row">
-			<div class="card m-3" style="width: 18rem;">
-				<div class="scale">
-					<img class="card-img-top p-3" src="/zeus/img/airpods_pro.jpg"
-						alt="Card image cap">
-				</div>
-				<div class="card-body">
-					<h3 class="card-title text-center">
-						<i>소리로 소음을<br> 압도하다.
-						</i>
-					</h3>
-					<p class="card-text">최소
-					<h4>24시간</h4>
-					배터리 선을 모르는 충전.<br> 지칠 줄 모르는 플레이.
-					</p>
-					<a href="#" class="btn btn-primary">지금 후원하기</a>
-				</div>
-			</div>
-		</div>
-			
-		
-	</div>
 </div>
 		
 
