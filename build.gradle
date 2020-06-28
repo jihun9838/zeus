@@ -1,0 +1,26 @@
+apply plugin: 'com.bmuschko.tomcat'
+apply plugin: 'eclipse-wtp'
+apply plugin: 'war'
+version = '0.1'
+
+buildscript {
+      repositories {
+            jcenter()
+      }
+      dependencies {
+            classpath 'com.bmuschko:gradle-tomcat-plugin:2.4.1'
+      }
+}
+
+dependencies {
+      def tomcatVersion = '9.0.35'
+      tomcat "org.apache.tomcat.embed:tomcat-embed-core:${tomcatVersion}",
+      "org.apache.tomcat.embed:tomcat-embed-logging-juli:${tomcatVersion}",
+      "org.apache.tomcat.embed:tomcat-embed-jasper:${tomcatVersion}"
+}
+
+tomcat {
+      httpPort = 80
+      enableSSL = true
+      contextPath = ''
+}
