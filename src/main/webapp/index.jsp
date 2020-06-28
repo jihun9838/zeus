@@ -11,7 +11,7 @@
 <meta name="author"			content="zihoony.kim, S, J, and Bootstrap contributors">
 <!-- <meta name="generator" content="Jekyll v4.0.1"> -->
 <link rel="shortcut icon" href="/img/zeus_logo_transparent.png">
-<title>Zeus</title>
+<title>Zeus - Gradle</title>
 
 
 <link rel="stylesheet"
