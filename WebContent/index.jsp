@@ -136,7 +136,7 @@ main {
 
 	<main role="main" class="container">
 		<div class="jumbotron text-center">
-			<h1>에어팟 프로, 그것은 섹시하니까</h1>
+			<h1>테스트용</h1>
 			<p class="lead">
 				온전히 빠져들게 하는 액티브 노이즈 캔슬링.<br> 주변의 소리를 들려주는 주변음 허용 모드. <br>
 			</p>
